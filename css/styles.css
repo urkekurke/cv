@@ -5,6 +5,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     font-family: 'Merriweather', serif;
+    color: #242c2a;
 
 }
 
@@ -22,6 +23,7 @@ h2 {
     margin-top: 10px;
     color: #289999b2;
     font-weight: normal;
+    padding: 10px;
 
 }
 
@@ -29,6 +31,10 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
 
+}
+
+p {
+    line-height: 2;
 }
 
 
@@ -71,12 +77,17 @@ h3 {
     padding-bottom: 5px;
 }
 
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
 .bottom-container {
     background-color: rgba(0, 195, 255, 0.507);
     margin: 20px 0 0;
     padding: 30px;
     line-height: 3;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .comp {
@@ -94,16 +105,24 @@ h3 {
 .footer-link {
     color: #0f8185;
     padding: 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
 }
 
 .skill-row {
     margin: 100px auto 160px;
     width: 50%;
     text-align: left;
-    line-height: 2;
+
 }
 
-
+.contact-mess {
+    width: 30%;
+    margin: 40px auto 40px;
+}
 
 .btn {
     background: #11a4de;
@@ -142,4 +161,5 @@ h3 {
 
 .copyright {
     color: #EAF6F6;
+    font-size: 0.95rem;
 }
